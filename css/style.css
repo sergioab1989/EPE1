@@ -6,4 +6,8 @@ body {
 .navbar {
     background-color: #1b0088;
 }
+footer {
+    background-color: #ffffff;
+    color: black;
+}
 /* Otros estilos comunes aquí */

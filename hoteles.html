@@ -4,18 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vuela Lejos - Aerolínea</title>
-    
+    <!-- Enlace CSS de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- Estilos personalizados -->
-    <style>
-        body {
-            background-color: #1b0088;
-            color: #ffffff;
-        }
-        .navbar {
-            background-color: #1b0088;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -48,13 +40,49 @@
     </div>
 </nav>
 
-<!-- Contenido de la página -->
-<div class="container mt-5">
-    <h1>Bienvenido a Vuela Lejos - Aerolínea</h1>
-    <p>Su sitio web de referencia para vuelos y viajes increíbles.</p>
-</div>
+<article class="container mt-5">
+    <h2>Hoteles en Destinos Populares</h2>
+    
+    <!-- Detalles de hoteles para París -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <img src="src/paris.jpg" alt="Hotel en París" class="card-img-top img-fluid">
+        </div>
+        <div class="col-md-6">
+            <h3>París, Francia</h3>
+            <p>Descubre nuestros hoteles de lujo en el corazón de París. Con vistas impresionantes a la Torre Eiffel y comodidades de clase mundial, tu estadía en París será inolvidable.</p>
+            <p>Precio desde: $200 por noche</p>
+            <a href="#" class="btn btn-primary">Ver más detalles</a>
+        </div>
+    </div>
 
-<!-- Enlace al archivo JavaScript de Bootstrap y otros scripts personalizados -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Detalles de hoteles para Orlando, USA -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <img src="src/orlando.jpg" alt="Hotel en Orlando, USA" class="card-img-top img-fluid">
+        </div>
+        <div class="col-md-6">
+            <h3>Orlando, Estados Unidos</h3>
+            <p>Encuentra el alojamiento perfecto para tus vacaciones familiares en Orlando. Nuestros hoteles están cerca de los parques temáticos más famosos.</p>
+            <p>Precio desde: $150 por noche</p>
+            <a href="#" class="btn btn-primary">Ver más detalles</a>
+        </div>
+    </div>
+
+    <!-- Detalles de hoteles para Tokio -->
+    <div class="row">
+        <div class="col-md-6">
+            <img src="src/tokio.jpg" alt="Hotel en Tokio" class="card-img-top img-fluid">
+        </div>
+        <div class="col-md-6">
+            <h3>Tokio, Japón</h3>
+            <p>Explora la vibrante ciudad de Tokio y hospédate en nuestros cómodos hoteles. Ubicados en el corazón de la acción, tendrás acceso a la cultura, la comida y la diversión de Tokio.</p>
+            <p>Precio desde: $180 por noche</p>
+            <a href="#" class="btn btn-primary">Ver más detalles</a>
+        </div>
+    </div>
+</article>
+<!-- Enlace al archivo JS de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

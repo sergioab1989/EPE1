@@ -1,13 +1,9 @@
-/* estilos.css */
+/* style.css */
 body {
-    background-color: #1b0088;
-    color: #ffffff;
-}
-.navbar {
-    background-color: #1b0088;
+    background-color: #1b0088; /* color de fondo primario */
+    color: #ffffff; /* color de texto */
 }
 footer {
-    background-color: #ffffff;
+    background-color: #ffffff; /* color de fondo de parte inferior de pagina */
     color: black;
 }
-/* Otros estilos comunes aquí */
